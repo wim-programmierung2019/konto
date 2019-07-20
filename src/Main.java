@@ -14,6 +14,7 @@ public class Main {
         // ausgeben lassen.
         // Erinnerung: Denken Sie an Kapselung!
         
+        Konto meinKonto = new Konto();
         
         
         
