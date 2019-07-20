@@ -2,6 +2,12 @@ public class Konto {
     private double betrag;
     private String inhaber;
     private int anzahl;
+    
+    public Konto(int betrag, String inhaber){
+        betrag = betrag;
+        inhaber = inhaber;
+        anzahl = 0;
+    }
 
     public double getBetrag() {
         return betrag;
