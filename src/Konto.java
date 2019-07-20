@@ -8,7 +8,7 @@ public class Konto {
         return saldo; 
     }
 
-    public double setSaldo(double betrag){
+    public void setSaldo(double betrag){
           saldo = betrag; 
     }  
     
@@ -16,7 +16,7 @@ public class Konto {
         return inhaber; 
     }
     
-    public String setInhaber(String Kunde){
+    public void setInhaber(String Kunde){
         inhaber = Kunde; 
     }
     
@@ -24,7 +24,7 @@ public class Konto {
         return anzahl; 
     }
     
-    public int setAnzahl(int value) {
+    public void setAnzahl(int value) {
         anzahl = value;
     }
     
