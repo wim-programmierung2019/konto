@@ -4,6 +4,12 @@ public class Konto {
     private String inhaber; 
     private int anzahl; 
 
+    public Konto(double betrag, String kunde){
+      saldo = betrag; 
+    inhaber = kunde;
+    }
+    
+    
     public double getSaldo(){
         return saldo; 
     }
