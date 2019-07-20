@@ -13,6 +13,15 @@ public class Main {
         // und alle Attribute durch geeignete Methoden ändern bzw. 
         // ausgeben lassen.
         // Erinnerung: Denken Sie an Kapselung!
+        Konto meinKonto = new Konto(50, "Julian");
+        Konto zweiKonto = new Konto(10, "Dennis");
+        System.out.println(meinKonto.getSaldo());
+        meinKonto.transaktion(zweiKonto, 10);
+        System.out.println(meinKonto.getAnzahlTransaktion());
+        System.out.println(meinKonto.getSaldo());
+        System.out.println(zweiKonto.getSaldo());
+        
+        
         
         
         
