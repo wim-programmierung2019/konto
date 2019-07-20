@@ -32,4 +32,8 @@ public class Konto {
         anzahl++;
     }
 
+    public void ueberweise(Konto ziel, double betrag){
+        saldo = saldo - betrag; 
+        ziel.setSaldo(ziel.getSaldo() + betrag);
+    }
 }
